@@ -1,41 +1,24 @@
-Ti si ekspertni Python developer. Treba mi kompletna 
+.Treba mi kompletna Phyton
 aplikacija za upravljanje podacima medicinskih studenata.
 
-## Tvoja uloga
+Tvoja uloga
 Ponašaj se kao autonomni coding agent. Prije pisanja koda:
 1. Analiziraj postojeći data.csv fajl u ovom direktorijumu
 2. Napravi detaljan plan šta ćeš izgraditi
 3. Sačekaj moje odobrenje prije nego nastaviš
 
-## Kolone dataseta (data.csv)
-- StudentID: jedinstveni identifikator
-- Gender: pol (Male/Female)
-- Age: godine studenta (18-40)
-- Ethnicity: etnička pripadnost
-- Year: akademska godina (1-6)
-- University: naziv univerziteta
-- GPA: prosjek ocjena (0.0-4.0)
-- MCAT Score: rezultat prijemnog testa (472-528)
-- Clinical Experience: kliničko iskustvo (Yes/No)
-- Research Experience: istraživačko iskustvo (Yes/No)
-- Publication Count: broj publikacija
-- Exam Score: rezultat standardizovanog ispita
+ Kolone dataseta (data.csv)
+Prilozene u Medical students.csv
 
-## Zahtjevi aplikacije
 
-### GUI - samo Tkinter
+ GUI - samo Tkinter
 - Koristi grid raspored za SVE elemente, 
   nikako pack() ili place()
 - Tamna medicinska tema:
-  * Pozadina: #1a1a2e
-  * Akcent: #16213e
-  * Dugmad: #e94560 sa hover efektom
-  * Tekst: #ffffff
-  * Font: Segoe UI 10-12pt
 - Naslov prozora: "Medical Students Management System"
 - Minimalna veličina prozora: 1200x700
 
-### Struktura rasporeda (grid)
+ Struktura rasporeda (grid)
 - Red 0: naslov koji se proteže cijelom širinom
 - Red 1: search bar i filter dropdown
 - Red 2 (lijeva kolona): forma za unos sa svim poljima
@@ -98,9 +81,8 @@ Ponašaj se kao autonomni coding agent. Prije pisanja koda:
 1. app.py - glavna aplikacija
 2. CLAUDE.md - kontekst projekta i coding standardi
 3. README.md - uputstvo za pokretanje i korištenje
-4. .gitignore - ignorisati __pycache__, *.pyc, *.pyo
 
-## Sadržaj CLAUDE.md
+#adržaj CLAUDE.md
 Uključi:
 - Opis projekta
 - Kako pokrenuti aplikaciju
@@ -108,17 +90,9 @@ Uključi:
 - Opis dataseta
 - Pravila grid rasporeda
 
-## Sadržaj README.md
-Uključi:
-- Naslov i opis projekta
-- Preduvjeti (Python 3.8+)
-- Kako instalirati i pokrenuti
-- Kako koristiti svaku funkcionalnost
-- Placeholder za screenshot
-- Placeholder za GitHub link
-- Placeholder za članove tima
 
-## Važna pravila
+
+Važna pravila
 - NIKADA ne koristiti pack() ili place() za raspored
 - UVIJEK koristiti grid() za svaki widget
 - CSV fajl se nikada ne smije obrisati, samo mijenjati
